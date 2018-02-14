@@ -1,0 +1,5 @@
+Delhi Mumbai 10
+Delhi Goa 20
+Mumbai Delhi 15
+Mumbai Goa 25
+Goa Delhi 5
