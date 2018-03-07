@@ -4,7 +4,8 @@ import java.util.Scanner;
 
 public class Flight implements Serializable{
     String dest, source;
-    int num_passengers, id, total_passengers, lock, s_locks, x_lock;
+    int num_passengers, id, total_passengers;
+    volatile int lock, s_locks, x_lock;
     ArrayList<Integer> passengers;
 
     static final long serialVersionUID = 1L;
